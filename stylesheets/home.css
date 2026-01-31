@@ -80,10 +80,10 @@ a:visited {color: #ffffff;}
 	transform: translate(-50%,-50%);
 	padding:0;
 	margin:0px;
-	font-size:30px;
 	font-size: 1000%;
 	mix-blend-mode: difference;
 	color:#fff;
+	font-family: 'Noto Sans JP';
 }
 
 * {box-sizing: border-box;}
