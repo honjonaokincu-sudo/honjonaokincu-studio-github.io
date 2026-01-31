@@ -1,0 +1,103 @@
+header{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	cursor: url("../img/shimeji.cur"), auto;
+	background-color: #B1063A;
+	margin: 0px;
+	padding: 0px;
+}
+h1 {
+	margin:auto;
+	text-align:center;
+	color:#ffffff;
+}
+h3 {
+	margin: auto;
+	color:#ffffff;
+}
+p {
+	margin: 0em 0px 0.5em 0px;
+}
+ul {
+	list-style: circle;
+}
+nav ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	border-top: 2px solid #ddd;
+	border-bottom: 2px solid #ddd;
+}
+
+nav li {
+	display: inline-block;
+	width: 19%;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+}
+nav li:not(:last-child){
+	border-right: 2px solid #ddd;
+}
+nav li:hover {
+	background-color:#7C0328;
+}
+img {
+	border-top:2px solid #ddd;
+	display: block;
+}
+
+a:link {text-decoration: none; color: #ffffff;}
+a:hover {text-decoration: underline;}
+a:active {color: #00ff00;}
+a:visited {color: #ffffff;}
+
+.inner {
+	background-color: #ffffff;
+	padding-right: 4px;
+	padding-left: 4px;
+}
+.inner h3 {
+	margin: 0px;
+	padding-top: 7px;
+	color:#000000;
+}
+.inner a:link {text-decoration: none; color: #0000ff;}
+.inner a:hover {text-decoration: underline;}
+.inner a:active {color: #ff0000;}
+.inner a:visited {color: #6A5ACD;}
+
+.container{
+
+    position: relative;
+}
+.container p{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	padding:0;
+	margin:0px;
+	font-size: 1000%;
+	mix-blend-mode: difference;
+	color:#fff;
+	font-family: 'Times New Roman';
+}
+
+* {box-sizing: border-box;}
+
+.img-magnifier-container {
+  position: relative;
+}
+
+.img-magnifier-glass {
+  position: absolute;
+  border: 3px solid #000;
+  border-radius: 50%;
+  cursor: none;
+  /*Set the size of the magnifier glass:*/
+  width: 100px;
+  height: 100px;
+}
