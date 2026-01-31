@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <title>本庄直生のサイト@コンリテ</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="stylesheets/home.css">
+</head>
+
+<body>
+<header>
+<h1>ギャラリー</h1>
+<nav><ul>
+  <li><a href="index.html">ホーム</a></li>
+  <li><a href="profile.html">プロフィール</a></li>
+  <li><a href="gallery.html">ギャラリー</a></li>
+  <li><a href="links.html">リンク</a></li>
+  <li><a href="assignments.html">課題</a></li>
+</ul></nav>
+</header>
+
+<div class="inner">
+<main>
+<p>
+画像にカーソルを合わせると拡大されます。正常に動作しない場合は、再読み込みしてください。</p>
+<h3>喜屋武岬</h3>
+<div class="img-magnifier-container">
+<img id="summer" src="img/summer.JPG" alt="lighthouse" width="40%">
+</div>
+<script src="scripts/magnifier.js"></script>
+<script>
+magnify("summer", 3);
+</script>
+<h3>パフラヴァン・マフムード廟</h3>
+<div class="img-magnifier-container">
+<img id="tomb" src="img/tomb.jpg" alt="tomb" width="40%">
+</div>
+<script src="scripts/magnifier.js"></script>
+<script>
+magnify("tomb", 3);
+</script>
+
+<h3>BZ反応</h3>
+<video src="img/BZReaction.mp4" controls autoplay muted alt="Chemical Reaction" width="25%"></video>
+</main>
+
+<hr>
+
+<footer>
+<small>
+Copyright &copy 2025 Naoki Honjo. All rights Reserved.
+</small>
+</footer>
+
+</div>
+</body>
+</html>

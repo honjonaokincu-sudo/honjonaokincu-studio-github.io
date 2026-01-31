@@ -1,0 +1,79 @@
+header{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	cursor: url("../img/shimeji.cur"), auto;
+	background-color: #B1063A;
+	margin: 0px;
+	padding: 0px;
+}
+h1 {
+	margin:auto;
+	text-align:center;
+	color:#ffffff;
+}
+h3 {
+	margin: auto;
+	color:#ffffff;
+	text-align:center;
+}
+p {
+	margin: 0em 0px 0.5em 0px;
+}
+nav ul {
+	list-style:none;
+	margin: 0px;
+	padding: 0px;
+	border-top: 2px solid #ddd;
+	border-bottom: 2px solid #ddd;
+}
+
+nav li {
+	background-color:#B1063A;
+	display: inline-block;
+	width: 19%;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+}
+nav li:not(:last-child){
+	border-right: 2px solid #ddd;
+}
+nav li:hover {
+	background-color:#7C0328;
+}
+a:link {text-decoration: none; color: #ffffff;text-align:center;}
+a:hover {text-decoration: underline;}
+a:active {color: #00ff00;}
+a:visited {color: #ffffff;}
+
+.inner {
+	background-color: #ffffff;
+	padding-right: 4px;
+	padding-left: 4px;
+	text-align:center;
+}
+.inner h3 {
+	margin: 0px;
+	color:#000000;
+}
+.inner ul {
+	list-style:none;
+	padding-top:1px;
+}
+.inner li {
+	background-color:#D5CDCD;
+	border-radius:5px;
+	width:40%;
+	margin:auto;
+	margin-top:8px;
+	border:3px solid #A9A1A1;
+}
+.inner li:hover{
+	background-color:#A59F9F;
+}
+.inner a:link {text-decoration: underline; color: #0000ff;}
+.inner a:hover {text-decoration: underline;}
+.inner a:active {color: #ff0000;}
+.inner a:visited {color: #6A5ACD;}
